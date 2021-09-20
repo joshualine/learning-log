@@ -1,0 +1,29 @@
+{
+  "name": "learning_log_app",
+  "version": "1.0.0",
+  "description": "The learning log wep app allows users to log the topics they are interested in and to make journal entries as they learn about each topic. The learning log home page will describe the site and invite users to either register or log in. Once logged in, a user can create new topics, add new entries, and read and edit existing entries.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MongoDB",
+    "Nodejs",
+    "Express",
+    "API"
+  ],
+  "author": "Joshua Chinwendu",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.6",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
